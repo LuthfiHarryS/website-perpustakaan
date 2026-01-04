@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 
-const TITLE = '📚 Perpustakaan SMAN'
+const TITLE = 'Perpustakaan SMAN'
 
 export function Header({ onOpenSearch }) {
   const location = useLocation()
