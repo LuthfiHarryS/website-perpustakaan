@@ -1,0 +1,728 @@
+[
+  {
+    "judul": "Atomic Habits",
+    "pengarang": "James Clear",
+    "sinopsis": "Panduan membangun kebiasaan baik dan menghapus kebiasaan buruk melalui perubahan kecil yang konsisten.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 2018,
+    "penerbit": "Avery",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 352,
+    "cover_url": "https://placehold.co/320x480?text=Atomic+Habits",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Filosofi Teras",
+    "pengarang": "Henry Manampiring",
+    "sinopsis": "Pengenalan Stoikisme untuk membantu mengelola emosi dan berpikir lebih jernih dalam kehidupan sehari-hari.",
+    "genre": [
+      "Filsafat",
+      "Self Improvement"
+    ],
+    "tahun_terbit": 2018,
+    "penerbit": "Kompas",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 344,
+    "cover_url": "https://placehold.co/320x480?text=Filosofi+Teras",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Laut Bercerita",
+    "pengarang": "Leila S. Chudori",
+    "sinopsis": "Kisah tentang persahabatan, perjuangan, dan kehilangan yang berlatar masa politik kelam di Indonesia.",
+    "genre": [
+      "Novel",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2017,
+    "penerbit": "KPG",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 379,
+    "cover_url": "https://placehold.co/320x480?text=Laut+Bercerita",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Man's Search for Meaning",
+    "pengarang": "Viktor E. Frankl",
+    "sinopsis": "Refleksi tentang makna hidup dan ketahanan manusia melalui pengalaman di kamp konsentrasi.",
+    "genre": [
+      "Biografi",
+      "Self Improvement"
+    ],
+    "tahun_terbit": 1946,
+    "penerbit": "Beacon Press",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 200,
+    "cover_url": "https://placehold.co/320x480?text=Meaning",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Metamorphosis",
+    "pengarang": "Franz Kafka",
+    "sinopsis": "Cerita klasik tentang perubahan, keterasingan, dan tekanan sosial melalui metafora yang kuat.",
+    "genre": [
+      "Novel",
+      "Filsafat"
+    ],
+    "tahun_terbit": 1915,
+    "penerbit": "Norris Classics",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 96,
+    "cover_url": "https://placehold.co/320x480?text=Metamorphosis",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Thus Spoke Zarathustra",
+    "pengarang": "Friedrich Nietzsche",
+    "sinopsis": "Karya filsafat tentang moral, nilai, dan pencarian jati diri melalui tokoh Zarathustra.",
+    "genre": [
+      "Filsafat"
+    ],
+    "tahun_terbit": 1883,
+    "penerbit": "Norris Classics",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 320,
+    "cover_url": "https://placehold.co/320x480?text=Zarathustra",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Art of War",
+    "pengarang": "Sun Tzu",
+    "sinopsis": "Strategi dan prinsip klasik tentang perencanaan, kepemimpinan, dan pengambilan keputusan.",
+    "genre": [
+      "Sejarah",
+      "Self Improvement"
+    ],
+    "tahun_terbit": -500,
+    "penerbit": "Klasik",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 180,
+    "cover_url": "https://placehold.co/320x480?text=Art+of+War",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Hujan Bulan Juni",
+    "pengarang": "Sapardi Djoko Damono",
+    "sinopsis": "Kumpulan puisi yang sederhana namun dalam, banyak berbicara tentang rindu, waktu, dan ketenangan.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 1994,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 112,
+    "cover_url": "https://placehold.co/320x480?text=Hujan+Bulan+Juni",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "UUD 1945 (Ringkas)",
+    "pengarang": "Tim Redaksi",
+    "sinopsis": "Ringkasan Undang-Undang Dasar 1945 beserta penjelasan singkat untuk pembelajaran.",
+    "genre": [
+      "Pelajaran",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2020,
+    "penerbit": "Pustaka Sekolah",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 220,
+    "cover_url": "https://placehold.co/320x480?text=UUD+1945",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi B.J. Habibie",
+    "pengarang": "Tim Biografi",
+    "sinopsis": "Perjalanan hidup dan kontribusi tokoh nasional dalam teknologi dan pemerintahan.",
+    "genre": [
+      "Biografi",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2012,
+    "penerbit": "Pustaka Nusantara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 256,
+    "cover_url": "https://placehold.co/320x480?text=Habibie",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi R.A. Kartini",
+    "pengarang": "Tim Biografi",
+    "sinopsis": "Kisah perjuangan emansipasi dan semangat belajar yang relevan untuk pelajar.",
+    "genre": [
+      "Biografi",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2010,
+    "penerbit": "Pustaka Nusantara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 240,
+    "cover_url": "https://placehold.co/320x480?text=Kartini",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sejarah Indonesia Modern",
+    "pengarang": "Pengajar Sejarah",
+    "sinopsis": "Garis besar peristiwa penting Indonesia modern untuk mendukung pembelajaran di sekolah.",
+    "genre": [
+      "Pelajaran",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2019,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 300,
+    "cover_url": "https://placehold.co/320x480?text=Sejarah+Indonesia",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Matematika SMA Kelas X",
+    "pengarang": "Tim Guru",
+    "sinopsis": "Materi, contoh soal, dan latihan untuk Matematika SMA kelas X.",
+    "genre": [
+      "Pelajaran"
+    ],
+    "tahun_terbit": 2021,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 420,
+    "cover_url": "https://placehold.co/320x480?text=Matematika+X",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Bahasa Indonesia SMA Kelas XI",
+    "pengarang": "Tim Guru",
+    "sinopsis": "Modul pembelajaran Bahasa Indonesia untuk SMA kelas XI dengan latihan dan rangkuman.",
+    "genre": [
+      "Pelajaran"
+    ],
+    "tahun_terbit": 2022,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 360,
+    "cover_url": "https://placehold.co/320x480?text=B.+Indonesia+XI",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Pengantar Etika",
+    "pengarang": "Dosen Filsafat",
+    "sinopsis": "Pengantar konsep etika, dilema moral, dan penerapannya dalam kehidupan sehari-hari.",
+    "genre": [
+      "Filsafat"
+    ],
+    "tahun_terbit": 2016,
+    "penerbit": "Pustaka Ilmu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 280,
+    "cover_url": "https://placehold.co/320x480?text=Etika",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Kisah Nabi Muhammad",
+    "pengarang": "Tim Sejarah Islam",
+    "sinopsis": "Ringkasan kisah dan teladan Nabi Muhammad yang disusun untuk pembaca pelajar.",
+    "genre": [
+      "Agama",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2015,
+    "penerbit": "Pustaka Islam",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 220,
+    "cover_url": "https://placehold.co/320x480?text=Kisah+Nabi",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Ensiklopedia Ibadah",
+    "pengarang": "Tim Agama",
+    "sinopsis": "Panduan ringkas ibadah dan adab sehari-hari dalam bahasa yang mudah dipahami.",
+    "genre": [
+      "Agama"
+    ],
+    "tahun_terbit": 2018,
+    "penerbit": "Pustaka Islam",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 310,
+    "cover_url": "https://placehold.co/320x480?text=Ibadah",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Dunia Sophie",
+    "pengarang": "Jostein Gaarder",
+    "sinopsis": "Novel pengantar sejarah filsafat yang dikemas lewat cerita misteri seorang remaja.",
+    "genre": [
+      "Novel",
+      "Filsafat"
+    ],
+    "tahun_terbit": 1991,
+    "penerbit": "Mizan",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 512,
+    "cover_url": "https://placehold.co/320x480?text=Dunia+Sophie",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Terbakar Semangat Belajar",
+    "pengarang": "Penulis Motivasi",
+    "sinopsis": "Tips belajar efektif, manajemen waktu, dan cara tetap konsisten menghadapi ujian.",
+    "genre": [
+      "Self Improvement",
+      "Pelajaran"
+    ],
+    "tahun_terbit": 2020,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 200,
+    "cover_url": "https://placehold.co/320x480?text=Semangat+Belajar",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "1984",
+    "pengarang": "George Orwell",
+    "sinopsis": "Novel distopia klasik tentang totalitarianisme dan pengawasan massal yang tetap relevan hingga kini.",
+    "genre": [
+      "Novel",
+      "Filsafat"
+    ],
+    "tahun_terbit": 1949,
+    "penerbit": "Bentang Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 328,
+    "cover_url": "https://placehold.co/320x480?text=1984",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Animal Farm",
+    "pengarang": "George Orwell",
+    "sinopsis": "Allegori politik tentang revolusi yang berubah menjadi tirani, disampaikan melalui cerita binatang.",
+    "genre": [
+      "Novel",
+      "Filsafat"
+    ],
+    "tahun_terbit": 1945,
+    "penerbit": "Bentang Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 112,
+    "cover_url": "https://placehold.co/320x480?text=Animal+Farm",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Bumi Manusia",
+    "pengarang": "Pramoedya Ananta Toer",
+    "sinopsis": "Novel epik tentang perjuangan Minke melawan penjajahan dan mencari identitas di era kolonial.",
+    "genre": [
+      "Novel",
+      "Sejarah"
+    ],
+    "tahun_terbit": 1980,
+    "penerbit": "Lentera Dipantara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 535,
+    "cover_url": "https://placehold.co/320x480?text=Bumi+Manusia",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Laskar Pelangi",
+    "pengarang": "Andrea Hirata",
+    "sinopsis": "Kisah inspiratif tentang sekelompok anak di Belitung yang berjuang mengejar pendidikan.",
+    "genre": [
+      "Novel",
+      "Biografi"
+    ],
+    "tahun_terbit": 2005,
+    "penerbit": "Bentang Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 529,
+    "cover_url": "https://placehold.co/320x480?text=Laskar+Pelangi",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sang Pemimpi",
+    "pengarang": "Andrea Hirata",
+    "sinopsis": "Kelanjutan kisah Ikal dan teman-temannya yang terus bermimpi dan berjuang meraih cita-cita.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 2006,
+    "penerbit": "Bentang Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 292,
+    "cover_url": "https://placehold.co/320x480?text=Sang+Pemimpi",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Perahu Kertas",
+    "pengarang": "Dee Lestari",
+    "sinopsis": "Kisah perjalanan Kugy dan Keenan dalam menemukan cinta, mimpi, dan jati diri.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 2009,
+    "penerbit": "Bentang Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 444,
+    "cover_url": "https://placehold.co/320x480?text=Perahu+Kertas",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Negeri 5 Menara",
+    "pengarang": "Ahmad Fuadi",
+    "sinopsis": "Kisah inspiratif tentang perjuangan Alif dan teman-temannya di pesantren dengan impian besar.",
+    "genre": [
+      "Novel",
+      "Biografi"
+    ],
+    "tahun_terbit": 2009,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 424,
+    "cover_url": "https://placehold.co/320x480?text=Negeri+5+Menara",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Ronggeng Dukuh Paruk",
+    "pengarang": "Ahmad Tohari",
+    "sinopsis": "Kisah Srintil, seorang ronggeng, yang menjadi korban pergolakan politik tahun 1965.",
+    "genre": [
+      "Novel",
+      "Sejarah"
+    ],
+    "tahun_terbit": 1982,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 368,
+    "cover_url": "https://placehold.co/320x480?text=Ronggeng+Dukuh+Paruk",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Siti Nurbaya",
+    "pengarang": "Marah Rusli",
+    "sinopsis": "Novel klasik Indonesia tentang perjodohan paksa dan konflik adat pada masa kolonial.",
+    "genre": [
+      "Novel",
+      "Sejarah"
+    ],
+    "tahun_terbit": 1922,
+    "penerbit": "Balai Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 288,
+    "cover_url": "https://placehold.co/320x480?text=Siti+Nurbaya",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Pride and Prejudice",
+    "pengarang": "Jane Austen",
+    "sinopsis": "Kisah romantis klasik tentang Elizabeth Bennet dan Mr. Darcy dalam masyarakat Inggris abad ke-19.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 1813,
+    "penerbit": "Penerbit Buku",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 432,
+    "cover_url": "https://placehold.co/320x480?text=Pride+and+Prejudice",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "To Kill a Mockingbird",
+    "pengarang": "Harper Lee",
+    "sinopsis": "Kisah tentang ketidakadilan rasial yang dilihat melalui mata seorang anak di Amerika Selatan.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 1960,
+    "penerbit": "Penerbit Buku",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 376,
+    "cover_url": "https://placehold.co/320x480?text=To+Kill+a+Mockingbird",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Great Gatsby",
+    "pengarang": "F. Scott Fitzgerald",
+    "sinopsis": "Kritik terhadap American Dream melalui kisah Jay Gatsby dan dekadensi era Jazz Age.",
+    "genre": [
+      "Novel"
+    ],
+    "tahun_terbit": 1925,
+    "penerbit": "Penerbit Buku",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 180,
+    "cover_url": "https://placehold.co/320x480?text=The+Great+Gatsby",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi Soekarno",
+    "pengarang": "Cindy Adams",
+    "sinopsis": "Perjalanan hidup Bung Karno dari masa kecil hingga menjadi proklamator kemerdekaan Indonesia.",
+    "genre": [
+      "Biografi",
+      "Sejarah"
+    ],
+    "tahun_terbit": 1965,
+    "penerbit": "Pustaka Sejarah",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 520,
+    "cover_url": "https://placehold.co/320x480?text=Soekarno",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi Soedirman",
+    "pengarang": "Tim Sejarah",
+    "sinopsis": "Kisah perjuangan Jenderal Soedirman melawan penjajah meski dalam kondisi sakit parah.",
+    "genre": [
+      "Biografi",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2015,
+    "penerbit": "Pustaka Nusantara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 340,
+    "cover_url": "https://placehold.co/320x480?text=Soedirman",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi Cut Nyak Dien",
+    "pengarang": "Tim Sejarah",
+    "sinopsis": "Perjuangan pahlawan wanita Aceh melawan penjajah Belanda dengan semangat pantang menyerah.",
+    "genre": [
+      "Biografi",
+      "Sejarah"
+    ],
+    "tahun_terbit": 2012,
+    "penerbit": "Pustaka Nusantara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 280,
+    "cover_url": "https://placehold.co/320x480?text=Cut+Nyak+Dien",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi Albert Einstein",
+    "pengarang": "Walter Isaacson",
+    "sinopsis": "Kisah hidup ilmuwan genius yang mengubah pemahaman manusia tentang alam semesta.",
+    "genre": [
+      "Biografi"
+    ],
+    "tahun_terbit": 2007,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 704,
+    "cover_url": "https://placehold.co/320x480?text=Einstein",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Biografi Steve Jobs",
+    "pengarang": "Walter Isaacson",
+    "sinopsis": "Perjalanan pendiri Apple yang revolusioner dalam dunia teknologi dan inovasi.",
+    "genre": [
+      "Biografi"
+    ],
+    "tahun_terbit": 2011,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 656,
+    "cover_url": "https://placehold.co/320x480?text=Steve+Jobs",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Think and Grow Rich",
+    "pengarang": "Napoleon Hill",
+    "sinopsis": "Prinsip-prinsip kesuksesan berdasarkan wawancara dengan orang-orang terkaya di Amerika.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 1937,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 320,
+    "cover_url": "https://placehold.co/320x480?text=Think+and+Grow+Rich",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The 7 Habits of Highly Effective People",
+    "pengarang": "Stephen R. Covey",
+    "sinopsis": "Panduan praktis untuk mengembangkan kebiasaan yang efektif dalam kehidupan pribadi dan profesional.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 1989,
+    "penerbit": "Binarupa Aksara",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 384,
+    "cover_url": "https://placehold.co/320x480?text=7+Habits",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Rich Dad Poor Dad",
+    "pengarang": "Robert T. Kiyosaki",
+    "sinopsis": "Pelajaran tentang literasi keuangan dan cara berpikir yang berbeda tentang uang dan investasi.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 1997,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 336,
+    "cover_url": "https://placehold.co/320x480?text=Rich+Dad+Poor+Dad",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Deep Work",
+    "pengarang": "Cal Newport",
+    "sinopsis": "Strategi untuk fokus secara mendalam dalam dunia yang penuh distraksi.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 2016,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 304,
+    "cover_url": "https://placehold.co/320x480?text=Deep+Work",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Power of Habit",
+    "pengarang": "Charles Duhigg",
+    "sinopsis": "Penjelasan ilmiah tentang bagaimana kebiasaan bekerja dan cara mengubahnya.",
+    "genre": [
+      "Self Improvement"
+    ],
+    "tahun_terbit": 2012,
+    "penerbit": "Gramedia",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 371,
+    "cover_url": "https://placehold.co/320x480?text=Power+of+Habit",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Meditations",
+    "pengarang": "Marcus Aurelius",
+    "sinopsis": "Catatan pribadi kaisar Romawi tentang Stoikisme dan refleksi kehidupan.",
+    "genre": [
+      "Filsafat",
+      "Self Improvement"
+    ],
+    "tahun_terbit": 180,
+    "penerbit": "Penerbit Filsafat",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 256,
+    "cover_url": "https://placehold.co/320x480?text=Meditations",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Republic",
+    "pengarang": "Plato",
+    "sinopsis": "Karya klasik tentang keadilan, bentuk ideal negara, dan filsafat politik.",
+    "genre": [
+      "Filsafat"
+    ],
+    "tahun_terbit": -380,
+    "penerbit": "Penerbit Filsafat",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 416,
+    "cover_url": "https://placehold.co/320x480?text=The+Republic",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "The Prince",
+    "pengarang": "Niccolò Machiavelli",
+    "sinopsis": "Risalah politik klasik tentang kekuasaan dan kepemimpinan yang pragmatis.",
+    "genre": [
+      "Filsafat",
+      "Sejarah"
+    ],
+    "tahun_terbit": 1532,
+    "penerbit": "Penerbit Filsafat",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 112,
+    "cover_url": "https://placehold.co/320x480?text=The+Prince",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sejarah Perang Dunia II",
+    "pengarang": "Tim Sejarah",
+    "sinopsis": "Rekap lengkap peristiwa Perang Dunia II dari berbagai perspektif dan dampaknya.",
+    "genre": [
+      "Sejarah"
+    ],
+    "tahun_terbit": 2018,
+    "penerbit": "Pustaka Sejarah",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 450,
+    "cover_url": "https://placehold.co/320x480?text=PD+II",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sejarah Nasional Indonesia",
+    "pengarang": "Sartono Kartodirdjo",
+    "sinopsis": "Pembahasan komprehensif sejarah Indonesia dari zaman prasejarah hingga kemerdekaan.",
+    "genre": [
+      "Sejarah",
+      "Pelajaran"
+    ],
+    "tahun_terbit": 1975,
+    "penerbit": "Balai Pustaka",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 680,
+    "cover_url": "https://placehold.co/320x480?text=Sejarah+Nasional",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sejarah Kerajaan Majapahit",
+    "pengarang": "Tim Sejarah",
+    "sinopsis": "Kisah kejayaan dan keruntuhan kerajaan terbesar di Nusantara.",
+    "genre": [
+      "Sejarah"
+    ],
+    "tahun_terbit": 2015,
+    "penerbit": "Pustaka Sejarah",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 320,
+    "cover_url": "https://placehold.co/320x480?text=Majapahit",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Sejarah Peradaban Islam",
+    "pengarang": "Tim Sejarah",
+    "sinopsis": "Perjalanan perkembangan peradaban Islam dari masa Nabi hingga zaman modern.",
+    "genre": [
+      "Sejarah",
+      "Agama"
+    ],
+    "tahun_terbit": 2017,
+    "penerbit": "Pustaka Islam",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 480,
+    "cover_url": "https://placehold.co/320x480?text=Peradaban+Islam",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Fisika SMA Kelas XI",
+    "pengarang": "Tim Guru",
+    "sinopsis": "Modul pembelajaran Fisika untuk SMA kelas XI dengan konsep dan latihan soal.",
+    "genre": [
+      "Pelajaran"
+    ],
+    "tahun_terbit": 2022,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 380,
+    "cover_url": "https://placehold.co/320x480?text=Fisika+XI",
+    "status": "Tersedia"
+  },
+  {
+    "judul": "Kimia SMA Kelas XII",
+    "pengarang": "Tim Guru",
+    "sinopsis": "Materi Kimia untuk SMA kelas XII dengan contoh reaksi dan praktikum.",
+    "genre": [
+      "Pelajaran"
+    ],
+    "tahun_terbit": 2023,
+    "penerbit": "Pustaka Edu",
+    "bahasa": "Indonesia",
+    "jumlah_halaman": 400,
+    "cover_url": "https://placehold.co/320x480?text=Kimia+XII",
+    "status": "Tersedia"
+  }
+]

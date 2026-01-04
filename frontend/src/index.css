@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #6f8f7b; /* hijau lembut */
+  --panel: rgba(255, 255, 255, 0.88);
+  --ink: #0f172a;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* Small helpers for readability on top of Tailwind */
+.panel {
+  background: var(--panel);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Micro-interactions untuk feedback yang lebih engaging */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible untuk a11y tapi tetap estetik */
+*:focus-visible {
+  outline: 2px solid rgba(15, 23, 42, 0.3);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
