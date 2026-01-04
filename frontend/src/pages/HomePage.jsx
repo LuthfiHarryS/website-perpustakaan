@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { apiGet } from '../lib/api.js'
 import { BookCard } from '../components/BookCard.jsx'
 import { Chatbot } from '../components/Chatbot.jsx'
+import { TipsSection } from '../components/TipsSection.jsx'
 
 export function HomePage() {
   const [books, setBooks] = useState([])
@@ -54,7 +55,7 @@ export function HomePage() {
             disabled={loading}
             className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-slate-800 active:scale-95 disabled:opacity-50"
           >
-            🔄 Refresh
+            Refresh
           </button>
         </div>
 
@@ -76,18 +77,13 @@ export function HomePage() {
         )}
       </section>
 
-      {/* Quick tips section - motivasi tanpa menggurui */}
-      <section className="panel rounded-3xl p-5 shadow-lg ring-1 ring-black/5">
-        <div className="flex items-start gap-4">
-          <div className="rounded-xl bg-slate-900 p-3 text-2xl">💡</div>
-          <div className="flex-1">
-            <div className="mb-1 font-semibold text-slate-900">Tips nih!</div>
-            <p className="text-sm text-slate-600">
-              Coba mulai dari buku tipis dulu (kurang dari 200 halaman). Setelah selesai, rasanya
-              puas banget lho! 😎
-            </p>
-          </div>
+      {/* Tips section - multiple tips untuk lebih engaging */}
+      <section className="panel rounded-3xl p-6 shadow-lg ring-1 ring-black/5">
+        <div className="mb-4 flex items-center gap-2">
+          <span className="text-2xl">💡</span>
+          <h2 className="text-lg font-bold text-slate-900">Tips Buat Kamu</h2>
         </div>
+        <TipsSection variant="random" />
       </section>
 
       <Chatbot />

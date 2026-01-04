@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { apiGet } from '../lib/api.js'
 import { BookCard } from '../components/BookCard.jsx'
+import { TipsSection } from '../components/TipsSection.jsx'
 
 const SORT_OPTIONS = [
   { value: 'az', label: 'A–Z' },
@@ -10,8 +12,14 @@ const SORT_OPTIONS = [
 ]
 
 export function BooksPage({ genres }) {
-  const [selectedGenres, setSelectedGenres] = useState([])
-  const [sort, setSort] = useState('az')
+  const [searchParams, setSearchParams] = useSearchParams()
+  
+  // Baca genre dari URL query params saat pertama kali load
+  const initialGenre = searchParams.get('genre') || ''
+  const initialGenres = initialGenre ? initialGenre.split(',').filter(Boolean) : []
+  
+  const [selectedGenres, setSelectedGenres] = useState(initialGenres)
+  const [sort, setSort] = useState(searchParams.get('sort') || 'az')
   const [books, setBooks] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -44,10 +52,34 @@ export function BooksPage({ genres }) {
   }, [genreParam, sort])
 
   function toggleGenre(g) {
-    setSelectedGenres((prev) =>
-      prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g],
-    )
+    setSelectedGenres((prev) => {
+      const newGenres = prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]
+      // Update URL query params saat genre berubah
+      const newParams = new URLSearchParams(searchParams)
+      if (newGenres.length > 0) {
+        newParams.set('genre', newGenres.join(','))
+      } else {
+        newParams.delete('genre')
+      }
+      setSearchParams(newParams)
+      return newGenres
+    })
   }
+  
+  // Update URL saat sort berubah
+  useEffect(() => {
+    const newParams = new URLSearchParams(searchParams)
+    if (sort && sort !== 'az') {
+      newParams.set('sort', sort)
+    } else {
+      newParams.delete('sort')
+    }
+    // Hanya update jika berbeda dengan URL saat ini
+    if (newParams.toString() !== searchParams.toString()) {
+      setSearchParams(newParams, { replace: true })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sort])
 
   return (
     <div className="space-y-6">
@@ -97,11 +129,37 @@ export function BooksPage({ genres }) {
       {error && <div className="text-sm text-red-100">{error}</div>}
 
       {!loading && !error && (
-        <section className="grid grid-cols-2 gap-4 md:grid-cols-5">
-          {books.map((b) => (
-            <BookCard key={b._id} book={b} />
-          ))}
-        </section>
+        <>
+          {books.length > 0 ? (
+            <section className="grid grid-cols-2 gap-4 md:grid-cols-5">
+              {books.map((b) => (
+                <BookCard key={b._id} book={b} />
+              ))}
+            </section>
+          ) : (
+            <section className="panel rounded-3xl p-8 text-center shadow-lg ring-1 ring-black/5">
+              <div className="mb-4 text-5xl">📚</div>
+              <h3 className="mb-2 text-lg font-semibold text-slate-900">
+                Belum ada buku yang sesuai filter
+              </h3>
+              <p className="mb-6 text-sm text-slate-600">
+                Coba ubah filter genre atau hapus filter untuk melihat semua buku
+              </p>
+              <TipsSection variant="single" />
+            </section>
+          )}
+
+          {/* Tips section muncul setelah hasil */}
+          {books.length > 0 && (
+            <section className="panel rounded-3xl p-6 shadow-lg ring-1 ring-black/5">
+              <div className="mb-4 flex items-center gap-2">
+                <span className="text-2xl">💡</span>
+                <h2 className="text-lg font-bold text-slate-900">Tips Membaca</h2>
+              </div>
+              <TipsSection variant="single" />
+            </section>
+          )}
+        </>
       )}
     </div>
   )

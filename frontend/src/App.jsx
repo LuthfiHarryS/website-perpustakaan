@@ -31,9 +31,16 @@ export default function App() {
     console.log('User moods:', moods)
   }
 
+  function handleOpenOnboarding() {
+    setOnboardingOpen(true)
+  }
+
   return (
     <div className="min-h-screen">
-      <Header onOpenSearch={() => setSearchOpen(true)} />
+      <Header 
+        onOpenSearch={() => setSearchOpen(true)}
+        onOpenOnboarding={handleOpenOnboarding}
+      />
       <SearchModal
         open={searchOpen}
         onClose={() => setSearchOpen(false)}
